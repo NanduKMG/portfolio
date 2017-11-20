@@ -9,9 +9,6 @@
 
 /* Landscape phones and smaller */
 
-@media (max-width: 480px) {
-}
-
 			#landingImg{
 				width: 400px;
 				/*background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);*/
@@ -121,7 +118,11 @@
 			}
 			.links h2{
 	font-size: 50px;	
+
 }
+.bio h2{
+		font-size: 25px;
+	}
 
 
 
@@ -147,4 +148,60 @@
 	margin:auto;
 }
 
+}
+
+
+
+
+@media (max-width: 480px) {
+	#landing{
+		width: 250px;
+
+	}
+	#landing img{
+		width: 250px;
+	}
+	h1{
+		font-size: 30px;
+	}
+
+	.card h2{
+		font-size:25px;
+	}
+
+	.cse{visibility: hidden;
+		position: absolute;
+		top:calc(106%);
+		padding: 2vw;
+		left:15vw;
+	}
+
+	.bio{
+		
+		width: 73vw;
+	}
+	.bio h2{
+		font-size: 22px;
+	}
+	.card{
+		max-width: 73vw;
+		display: block;
+		margin:auto;
+		margin-bottom: 10px;
+	}
+
+	.links{
+		width: 73vw;
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.links h2{
+		font-size: 40px;
+	}
+
+	.links i {
+    padding-left: 10px;
+    padding-right: 10px;
 }
