@@ -2,9 +2,7 @@
 
 /* Landscape phones and portrait tablets */
 
-@media (max-width: 767px) {
 
-}
 
 
 /* Landscape phones and smaller */
@@ -125,13 +123,18 @@
 	}
 
 
+@media (max-width: 767px) {
 
+}
 
 
 
 	/* Portrait tablets and small desktops */
 /*bug fix for team page*/		
 @media (max-width: 1500px) {
+	h1{
+		font-size: 9vmax;
+	}
 .links{ 
 	text-align: center;
 	margin-left: 0px;
@@ -147,6 +150,35 @@
 .links i{
 	margin:auto;
 }
+
+.cse {
+	width:20vw;
+}
+
+.cse h2{
+	font-size: 1.7em;
+}
+
+.bio{
+	width: 50vw;
+}
+
+.projects{
+	width:88vw;
+}
+
+.tedx{
+	width: 40vw;
+}
+
+.tedx img{
+	display: block;
+	margin: auto;
+}
+.dhwani{
+	width: 40vw;
+}
+
 
 }
 
@@ -204,4 +236,13 @@
 	.links i {
     padding-left: 10px;
     padding-right: 10px;
+	}
+
+	.dhwani {
+		width: 73vw;
+	}
+
+	.tedx{
+		width: 73vw;
+	}
 }
